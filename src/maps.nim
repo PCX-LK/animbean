@@ -1,7 +1,7 @@
 import sugar, vars, core, types, math
 
 var
-  map1*, map2*, map3*, map4*, map5*,map6*: Beatmap
+  map1*, map2*, map3*, map4*, map5*, map6*: Beatmap
 
 template delayBullet*(pos: Vec2i, dir: Vec2i, tex = "") =
   let 
@@ -1118,4 +1118,6 @@ template createMaps* =
           spiral()
         
         if turn in 420..437:
-          midR
+          midRouter()
+    )
+  )
