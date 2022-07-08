@@ -39,12 +39,12 @@ proc modSize*(num: int): int =
 
 template createMaps* =
   map1 = BeatMap(
-    songName: "Aritus - For You",
-    music: "forYou",
-    bpm: 126f,
-    beatOffset: -80f / 1000f,
-    maxHits: 20,
-    copperAmount: 4,
+    songName: "Adoiaf - EMOMOMO",
+    music: "EMO",
+    bpm: 145f,
+    beatOffset: -1f / 1000f,
+    maxHits: 114514,
+    copperAmount: 1919810,
     fadeColor: colorPink.mix(colorWhite, 0.5f),
     drawPixel: (proc() =
       patStripes()
